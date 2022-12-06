@@ -1,0 +1,129 @@
+<h1> Basic HTML Tags </h1>
+
+<p>
+This paragraph <b>preceeds</b>
+</p>
+
+<ol>
+    <li>First</li>
+    <li>Second</li>
+</ol>
+
+<p>
+     x &lt; y
+</p>
+<p>
+    y &gt z
+</p>
+
+<style>
+    h1,ol {
+        color: rgb(204, 33, 223);
+        background-color: rgb(65, 255, 255);
+    }
+    p {
+        font-size: 15pt;
+        color: rgb(144, 196, 55);
+    }
+    em {
+    font-weight: bold;
+    font-size: 30pt;
+    color: rgb(56, 107, 201);
+    
+    }
+</style>
+
+
+<p>You are the <strong>Best</strong></p>
+<p>You <i>are</i> the <em>Best</em></p>
+
+<div class = "first_block">
+    first block
+</div>
+<div class = "Inline">
+    Inline content before
+    <span class = "first_block">Inline element</span>
+    and after
+</div>
+<div class = "last_block">
+    last block
+</div>
+<style>
+    .first_block{
+        font-size: 6pt;
+        
+    }
+    .myform input{
+        display: block;
+    }
+</style>
+
+<img class= "Meme" alt="cloud" title="you are the best!" src = "Meme.png" width="150" >
+
+<form class = "myform">
+    <label>
+        player 1:
+        <input name="player1">
+    </label>
+
+    <label>
+        player 2:
+        <input name="player2">
+    </label>
+
+    <label>
+        <input type = "checkbox">
+        Super fun Mode
+    </label>
+    <button type="submit">
+        click me
+    </button>
+</form>
+
+<style>
+    #yes{
+        display: none;
+    }
+</style>
+
+<form>
+    Do you want to suicide?
+    <div>
+        <label>
+            <input type="radio"> Yes
+        </label>
+        <label>
+            <input type="radio"> No
+        </label>
+    </div>
+    <div>
+        <label>
+            Why are you want to suicide?
+            <input type="text" id="yes">
+        </label>
+    </div>
+</form>
+
+<table>
+    <caption>Alien football stars</caption>
+    <tr>
+        <th scope="col">Player</th>
+        <th scope="col">Gloobles</th>
+        <th scope="col">Za'taak</th>
+    </tr>
+    <tr>
+        <th scope="row">TR-7</th>
+        <td>7</td>
+        <td>4,569</td>
+    </tr>
+    <tr>
+        <th scope="row">Khiresh Odo</th>
+        <td>7</td>
+        <td>7,223</td>
+    </tr>
+    <tr>
+        <th scope="row">Mia Oolong</th>
+        <td>9</td>
+        <td>6,219</td>
+    </tr>
+</table>
